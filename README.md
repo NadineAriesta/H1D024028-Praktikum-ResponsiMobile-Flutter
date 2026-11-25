@@ -19,10 +19,23 @@ Aplikasi WeatherCast menyajikan informasi meteorologi cuaca terkini secara akura
 
 Berikut adalah dokumentasi tangkapan layar antarmuka aplikasi pada setiap layarnya:
 
-| 1. Home (Cuaca Terkini) | 1. Home (Perkiraan 7 Hari) | 2. Search / Location Screen | 3. Favorites Screen | 4. Profile Screen |
-|:---:|:---:|:---:|:---:|:---:|
-| ![Home Screen Cuaca](screenshots/screen1_weather_home.png) | ![Home Screen Ramalan 7 Hari](screenshots/screen1_weather_detail.png) | ![Search Screen](screenshots/screen2_search.png) | ![Favorites Screen](screenshots/screen3_favorites.png) | ![Profile Screen](screenshots/screen4_about.png) |
-| *Cuaca real-time, suhu & quick chips* | *Detail 6 parameter & perkiraan cuaca 7 hari* | *Pencarian kota live Geocoding API & bookmark* | *Daftar kota favorit tersimpan di SharedPreferences* | *Profil pengembang & daftar fitur aplikasi* |
+### Baris 1: Home / Weather Screen
+| 1. Home (Cuaca Terkini) | 1. Home (Perkiraan 7 Hari) |
+|:---:|:---:|
+| <img src="screenshots/screen1_weather_home.png" width="320" /> | <img src="screenshots/screen1_weather_detail.png" width="320" /> |
+| *Cuaca real-time, suhu & quick chips* | *Detail 6 parameter & perkiraan cuaca 7 hari* |
+
+### Baris 2: Search Screen & Favorites Screen
+| 2. Search / Location Screen | 3. Favorites Screen |
+|:---:|:---:|
+| <img src="screenshots/screen2_search.png" width="320" /> | <img src="screenshots/screen3_favorites.png" width="320" /> |
+| *Pencarian kota live Geocoding API & bookmark* | *Daftar kota favorit tersimpan di SharedPreferences* |
+
+### Baris 3: Profile Screen
+| 4. Profile Screen |
+|:---:|
+| <img src="screenshots/screen4_about.png" width="320" /> |
+| *Profil pengembang & daftar fitur aplikasi* |
 
 ---
 
