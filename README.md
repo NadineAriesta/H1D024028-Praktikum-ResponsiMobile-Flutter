@@ -19,10 +19,10 @@ Aplikasi WeatherCast menyajikan informasi meteorologi cuaca terkini secara akura
 
 Berikut adalah dokumentasi tangkapan layar antarmuka aplikasi pada setiap layarnya:
 
-| 1. Home / Weather Screen | 2. Search / Location Screen | 3. Favorites Screen | 4. Profile Screen |
-|:---:|:---:|:---:|:---:|
-| ![Home Screen Cuaca](screenshots/screen1_weather_home.png) | ![Search Screen](screenshots/screen2_search.png) | ![Favorites Screen](screenshots/screen3_favorites.png) | ![Profile Screen](screenshots/screen4_about.png) |
-| *Cuaca real-time, detail 6 parameter, ramalan 7 hari & quick chips* | *Pencarian kota live via Geocoding API & bookmark favorit* | *Daftar kota favorit tersimpan offline & tombol kelola* | *Profil pengembang & ringkasan fitur aplikasi* |
+| 1. Home (Cuaca Terkini) | 1. Home (Perkiraan 7 Hari) | 2. Search / Location Screen | 3. Favorites Screen | 4. Profile Screen |
+|:---:|:---:|:---:|:---:|:---:|
+| ![Home Screen Cuaca](screenshots/screen1_weather_home.png) | ![Home Screen Ramalan 7 Hari](screenshots/screen1_weather_detail.png) | ![Search Screen](screenshots/screen2_search.png) | ![Favorites Screen](screenshots/screen3_favorites.png) | ![Profile Screen](screenshots/screen4_about.png) |
+| *Cuaca real-time, suhu & quick chips* | *Detail 6 parameter & perkiraan cuaca 7 hari* | *Pencarian kota live Geocoding API & bookmark* | *Daftar kota favorit tersimpan di SharedPreferences* | *Profil pengembang & daftar fitur aplikasi* |
 
 ---
 
@@ -162,7 +162,8 @@ D:\ResponsiFlutterF/
 │   └── utils/
 │       └── app_theme.dart             # Konfigurasi tema Material Design 3
 ├── screenshots/                       # Dokumentasi tangkapan layar emulator
-│   ├── screen1_weather_home.png       # Screenshot Screen 1: Cuaca Utama
+│   ├── screen1_weather_home.png       # Screenshot Screen 1: Cuaca Utama (Atas)
+│   ├── screen1_weather_detail.png     # Screenshot Screen 1: Detail & Perkiraan 7 Hari (Bawah)
 │   ├── screen2_search.png             # Screenshot Screen 2: Pencarian Kota
 │   ├── screen3_favorites.png          # Screenshot Screen 3: Kota Favorit
 │   └── screen4_about.png              # Screenshot Screen 4: Profil Pengembang
